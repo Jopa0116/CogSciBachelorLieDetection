@@ -445,16 +445,16 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript" src="Dubug.js"></script>
-<script type="text/javascript" src="MathScrpt.js"></script>
-<script type="text/javascript" src="Constants.js"></script>
-<script type="text/javascript" src="Variables.js"></script>
-<script type="text/javascript" src="SaveData.js"></script>
-<script type="text/javascript" src="Training.js"></script>
-<script type="text/javascript" src="GeneralScripts.js"></script>
-<script type="text/javascript" src="Strategies.js"></script>
-<script type="text/javascript" src="Graphics.js"></script>
-<script type="text/javascript" src="Main.js"></script>
+<script type="text/javascript" src="https://jopa0116.github.io/pageTest/Dubug.js"></script>
+<script type="text/javascript" src="https://jopa0116.github.io/pageTest/MathScrpt.js"></script>
+<script type="text/javascript" src="https://jopa0116.github.io/pageTest/Constants.js"></script>
+<script type="text/javascript" src="https://jopa0116.github.io/pageTest/Variables.js"></script>
+<script type="text/javascript" src="https://jopa0116.github.io/pageTest/SaveData.js"></script>
+<script type="text/javascript" src="https://jopa0116.github.io/pageTest/Training.js"></script>
+<script type="text/javascript" src="https://jopa0116.github.io/pageTest/GeneralScripts.js"></script>
+<script type="text/javascript" src="https://jopa0116.github.io/pageTest/Strategies.js"></script>
+<script type="text/javascript" src="https://jopa0116.github.io/pageTest/Graphics.js"></script>
+<script type="text/javascript" src="https://jopa0116.github.io/pageTest/Main.js"></script>
 <!--script type="text/javascript" src="Script.js"></script-->
-<script type="text/javascript" src="RunScripts.js"></script>
+<script type="text/javascript" src="https://jopa0116.github.io/pageTest/RunScripts.js"></script>
 </html>
