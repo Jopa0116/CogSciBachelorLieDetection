@@ -1,4 +1,7 @@
 keypresscount = 0
+hideElement('drawn_card');
+hideElement('Please_remember')
+hideElement('Was_this')
 
 function MAIN(press){
     document.addEventListener('keyup', MAIN)
@@ -26,6 +29,7 @@ function MAIN(press){
     } else if(press.code === 'KeyB' && keypresscount === 1){
         hideElement('Scenario');
         showElement('drawn_card');
+        showElement('Please_remember')
         if(beganwith == 'Test') {showElement(TrainingDraw.concat('_svg'))}
         else {showElement(TestDraw.concat('_svg'))}
         keypresscount = 2
@@ -33,6 +37,7 @@ function MAIN(press){
     } else if (press.code === 'KeyB' && keypresscount === 2 && beganwith === 'Training'){
         hideAllObjects();
         hideElement('drawn_card'); //Graphics.js
+        hideElement('Please_remember')
         document.removeEventListener('keyup', MAIN, false);
         showElement('Exjobb_Web');
         keypresscount = 3
@@ -67,6 +72,7 @@ function MAIN(press){
             keypresscount = 4
         };
     }else if (press.code === 'KeyB' && keypresscount === 4){
+        hideElement('Was_this')
         pathBeliefes = {
             '' : -1000,
             'Q4_1': 0,
@@ -204,6 +210,7 @@ function MAIN(press){
         hideElement('Scenario');
         // document.getElementById('drawn_card').removeChild(document.getElementById('THE_CARD'))
         showElement('drawn_card');
+        showElement('Please_remember')
         if(beganwith == 'Test') {showElement(TrainingDraw.concat('_svg'))}
         else {showElement(TestDraw.concat('_svg'))}
         keypresscount = 5;
@@ -219,6 +226,7 @@ function MAIN(press){
         hideAllObjects()
         l('2Training')
         hideElement('drawn_card'); //Graphics.js
+        hideElement('Please_remember')
         document.removeEventListener('keyup', MAIN, false);
         showElement('Exjobb_Web');
         mainTrain(); //Training.js
@@ -227,11 +235,13 @@ function MAIN(press){
         hideAllObjects()
         l('2Test')
         hideElement('drawn_card'); //Graphics.js
+        hideElement('Please_remember')
         document.removeEventListener('keyup', MAIN, false);
         showElement('Exjobb_Web');
         mainTest(); //Test.js
         keypresscount = 6
     } else if (press.code === 'KeyB' && keypresscount === 6){
+        hideElement('Was_this')
         counter = 0;
         hideAllObjects();
         hideElement('drawn_card');
