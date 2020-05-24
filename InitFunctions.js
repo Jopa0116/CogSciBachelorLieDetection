@@ -1,4 +1,4 @@
-var WhieghtsArray = {}
+var WhieghtsObj = {}
 
 function splitObject(obj) {
     var arr1 = Object.keys(obj);
@@ -24,11 +24,13 @@ function shuffle(obj) {
 
 function selectStrategy() {
     // l('Hello World')
-    var strategyMap = shuffle(WhieghtsArray);
-    // l(strategyMap)
-    for(var b of strategyMap) {
-        var a = Math.random()
-        if(b[1] > a) {
+    strategyMap = shuffle(WhieghtsObj);
+    var a = Math.random()
+    for(b of strategyMap) {
+        var temp = b[1]
+        if(temp > 0.95) { temp = 0.95 };
+        if(temp < 0.05) { temp = 0.05 };
+        if(temp > a) {
             if(b[0][0] == 1) {  return Strategy1 }
             else if(b[0][0] == 2) { return Strategy2 }
             else if(b[0][0] == 3) { return Strategy3 }

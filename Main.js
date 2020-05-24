@@ -25,17 +25,13 @@ function MAIN(press){
 
     } else if(press.code === 'KeyB' && keypresscount === 1){
         hideElement('Scenario');
-        // showElement('MAIN');
-        var elmnt = document.createElement('object')
-        elmnt.type = 'image/svg+xml'
-        elmnt.id = 'THE_CARD'
-        elmnt.style.float = 'left'
-        if(beganwith == 'Training') {elmnt.data = TrainingDraw.concat('.SVG')}
-        else {elmnt.data = TestDraw.concat('.SVG')}
-        document.getElementById('drawn_card').appendChild(elmnt)
+        showElement('drawn_card');
+        if(beganwith == 'Test') {showElement(TrainingDraw.concat('_svg'))}
+        else {showElement(TestDraw.concat('_svg'))}
         keypresscount = 2
 
     } else if (press.code === 'KeyB' && keypresscount === 2 && beganwith === 'Training'){
+        hideAllObjects();
         hideElement('drawn_card'); //Graphics.js
         document.removeEventListener('keyup', MAIN, false);
         showElement('Exjobb_Web');
@@ -43,6 +39,7 @@ function MAIN(press){
         mainTrain(); //Training.js
 
     } else if (press.code === 'KeyB' && keypresscount === 2 && beganwith === 'Test'){
+        hideAllObjects()
         hideElement('drawn_card'); //Graphics.js
         document.removeEventListener('keyup', MAIN, false);
         showElement('Exjobb_Web');
@@ -56,12 +53,14 @@ function MAIN(press){
         showElement('Scenario')
         if(beganwith == 'Training'){
             hideElement('drawn_card');
+            hideAllObjects();
             document.getElementById('Scenario').removeChild(document.getElementById('shwn_trng'))
             var scenario = document.getElementById('shwn_tst');
             scenario.innerHTML = 'You will now do the test scenario';
             keypresscount = 4
         }else{ 
             hideElement('drawn_card');
+            hideAllObjects();
             document.getElementById('Scenario').removeChild(document.getElementById('shwn_tst'))
             var scenario = document.getElementById('shwn_trng');
             scenario.innerHTML = 'You will now do the training scenario';
@@ -203,16 +202,21 @@ function MAIN(press){
         C_SpecialMean = 0;
         // l(keypresscount)
         hideElement('Scenario');
-        document.getElementById('drawn_card').removeChild(document.getElementById('THE_CARD'))
+        // document.getElementById('drawn_card').removeChild(document.getElementById('THE_CARD'))
         showElement('drawn_card');
-        var elmnt = document.createElement('object')
-        elmnt.type = 'image/svg+xml'
-        elmnt.id = 'THE_CARD'
-        if(beganwith == 'Test') {elmnt.data = TrainingDraw.concat('.SVG')}
-        else {elmnt.data = TestDraw.concat('.SVG')}
-        document.getElementById('drawn_card').appendChild(elmnt)
+        if(beganwith == 'Test') {showElement(TrainingDraw.concat('_svg'))}
+        else {showElement(TestDraw.concat('_svg'))}
         keypresscount = 5;
+
+        // var elmnt = document.createElement('object')
+        // elmnt.type = 'image/svg+xml'
+        // elmnt.id = 'THE_CARD'
+        // if(beganwith == 'Test') {elmnt.data = TrainingDraw.concat('.SVG')}
+        // else {elmnt.data = TestDraw.concat('.SVG')}
+        // document.getElementById('drawn_card').appendChild(elmnt)
+        // keypresscount = 5;
     } else if (press.code === 'KeyB' && keypresscount === 5 && beganwith === 'Test'){
+        hideAllObjects()
         l('2Training')
         hideElement('drawn_card'); //Graphics.js
         document.removeEventListener('keyup', MAIN, false);
@@ -220,6 +224,7 @@ function MAIN(press){
         mainTrain(); //Training.js
         keypresscount = 6
     } else if (press.code === 'KeyB' && keypresscount === 5 && beganwith === 'Training'){
+        hideAllObjects()
         l('2Test')
         hideElement('drawn_card'); //Graphics.js
         document.removeEventListener('keyup', MAIN, false);
@@ -228,18 +233,21 @@ function MAIN(press){
         keypresscount = 6
     } else if (press.code === 'KeyB' && keypresscount === 6){
         counter = 0;
+        hideAllObjects();
         hideElement('drawn_card');
-        document.getElementById('drawn_card').removeChild(document.getElementById('THE_CARD'))
+        // document.getElementById('drawn_card').removeChild(document.getElementById('THE_CARD'))
         showElement('ReadTime');
         keypresscount = 7;
     } else if (press.code === 'KeyB' && keypresscount === 7){
         document.removeEventListener('keyup', MAIN, false)
         hideElement('ReadTime');
         keypresscount = 8;
+        showElement('Read_test')
         READmain()
     } else if (press.code === 'KeyB' && keypresscount === 8){
         hideElement('ReadTime');
         hideElement('Intro')
+        hideAllObjects();
         hideElement('drawn_card');
         hideElement('Scenario')
         hideElement('Read_test')
@@ -250,8 +258,8 @@ function MAIN(press){
 function END() {
     l('Finished')
     hideElement('FormFinal')
+    showElement('WAITING')
     getFormData()
     data = gatherData()
-    l(data)
     submit(data)
 };

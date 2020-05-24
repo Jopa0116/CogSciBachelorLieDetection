@@ -1,16 +1,17 @@
 function finalprediction(highestcard){
     // l('finalprediction')
     hideElement('Exjobb_Web')
-    document.getElementById('drawn_card').removeChild(document.getElementById('THE_CARD'))
+    // document.getElementById('drawn_card').removeChild(document.getElementById('THE_CARD'))
     showElement('drawn_card')
-    var text = document.createElement('p')
-    text.id = 'yor_card?'
-    text.innerHTML = 'Was this your card? (Answer honestly)'
-    var elmnt = document.createElement('object')
-    elmnt.type = 'image/svg+xml'
-    elmnt.id = 'THE_CARD'
-    elmnt.data = highestcard.concat('.SVG')
-    document.getElementById('drawn_card').appendChild(elmnt)
+    // var text = document.createElement('p')
+    // text.id = 'yor_card?'
+    // text.innerHTML = 'Was this your card? (Answer honestly)'
+    // var elmnt = document.createElement('object')
+    // elmnt.type = 'image/svg+xml'
+    // elmnt.id = 'THE_CARD'
+    // elmnt.data = highestcard.concat('.SVG')
+    // document.getElementById('drawn_card').appendChild(elmnt)
+    showElement(highestcard.concat('_svg'))
 };
 
 function getCards(){

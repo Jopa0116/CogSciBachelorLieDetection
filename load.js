@@ -35,10 +35,10 @@ function load(){
 
         setRewards()
 
-        WhieghtsArray[1] = Strategy1_R
-        WhieghtsArray[2] = Strategy2_R
-        WhieghtsArray[3] = Strategy3_R
-        WhieghtsArray[4] = Strategy4_R
+        WhieghtsObj[1] = Strategy1_R
+        WhieghtsObj[2] = Strategy2_R
+        WhieghtsObj[3] = Strategy3_R
+        WhieghtsObj[4] = Strategy4_R
 
         testRTM = calcMean(TRTarr)
         testRTstd = calcSTD(TRTarr, testRTM)

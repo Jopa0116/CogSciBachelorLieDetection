@@ -52,3 +52,14 @@ function showElement(elementID){
     var game = document.getElementById(elementID);
     game.style.display = 'initial'
 };
+
+function hideAllObjects(){
+    var a = document.getElementsByTagName('object');
+    for(var b in a) {
+        l(typeof a[b])
+        if(typeof a[b] ==  'object'){
+            hideElement(a[b].id)
+            // a[b].style.display = 'none'
+        };
+    };
+};

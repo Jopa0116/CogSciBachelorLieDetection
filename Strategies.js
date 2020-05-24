@@ -139,10 +139,6 @@ function Testtop(){
     return nextState
 };
 
-function testNext() {
-    CurrQstn
-};
-
 function Strategy1(){
     // // l('*********************************************************************************')
     // // l('Strategy1_1')

@@ -32,7 +32,7 @@ function createpromptsequence(){
 function addReadQSTN(Question){
     var nde = document.createElement('h2')
     nde.innerHTML = Question
-    var place = document.getElementById("Read_test");
+    var place = document.getElementById("Read_test2");
     place.appendChild(nde);
 };
 
@@ -55,7 +55,7 @@ function READmain() {
 };
 
 function readEND() {
-    var place = document.getElementById("Read_test");
+    var place = document.getElementById("Read_test2");
     var trash = place.firstChild
     place.removeChild(trash)
     Question = ''
@@ -97,6 +97,7 @@ function keypressTrain(response){
             updatecards(qst, ReactionResult, CurrQstn);
             GethighScore(reactionTime)
             if(counter > 1){removeHighscore()};
+            l('hereeeeeeee---------111111')
             uppdateHighscore()
         };
 
@@ -124,7 +125,7 @@ function mainTrain(){
     if(counter == 0){setTimeout(()=>{document.addEventListener('keyup', keypressTrain)}, 700)} // This was needeed to prevent a bug, unlikley reeaction time anyhow 
     previusQstn = CurrQstn;
     counter += 1
-    l(counter)
+    // l(counter)
     if (counter < 53){
         reactionTime = 0;
         QstnKey = strtg();

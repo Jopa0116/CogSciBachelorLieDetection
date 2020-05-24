@@ -107,7 +107,6 @@ function gatherData(){
 
 function submit(data) {
     const url = URL
-    console.log(data)
     d = new URLSearchParams(data)   //.toString()
     j = d.toString()
     // l(j)
@@ -119,11 +118,9 @@ function submit(data) {
       },
     body: j
     })
-    .then( result => {console.log(result.text())
-    })
-    .catch(err => {
-        // l('Return')
-        // l(err)
+    .then( result => {
+        console.log(result.text())
+        lastly()
     })
 };
 
@@ -131,3 +128,8 @@ function getSTRTG() {
     Strategy = strtg.name // toString()
     return Strategy
 };
+
+function lastly(){
+    hideElement('WAITING')
+    showElement('FINISHED')
+}

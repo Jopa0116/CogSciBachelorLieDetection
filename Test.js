@@ -14,7 +14,7 @@ function keypressTest(response){
         };
 
         var ReactionResult = calcCertanty(reactionTime);
-        // l('It got here7')
+        l('It got here7')
         var AgentReactionPrompt = '';
         if(ReactionResult[0] === 'probR'){
             l('PROMPT')
@@ -25,7 +25,7 @@ function keypressTest(response){
             uppdateHighscoreNEGATIVE()
             setTimeout(()=>{hideElement('PROMPT')}, 2000)
         } else if(ReactionResult[0] === 'probT' || ReactionResult[0] === 'probL'){
-            // l('It got here7_2')
+            l('It got here7_2')
             updatecards(qst, ReactionResult, CurrQstn);
             GethighScore(reactionTime)
             if(counter > 1){removeHighscore()};
