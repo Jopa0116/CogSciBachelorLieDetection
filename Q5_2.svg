@@ -1,0 +1,12 @@
+<svg id="Component_33_1" data-name="Component 33 – 1" xmlns="http://www.w3.org/2000/svg" width="1517" height="2235" viewBox="0 0 303 427"> <g transform="scale(0.06 0.06)">
+  <g id="Rectangle_6" data-name="Rectangle 6" fill="#fff" stroke="#000" stroke-width="5">
+    <rect width="1517" height="2235" rx="81" stroke="none"/>
+    <rect x="2.5" y="2.5" width="1512" height="2230" rx="78.5" fill="none"/>
+  </g>
+  <path id="Path_28" data-name="Path 28" d="M73.513,413.3C23.84,322.945-94.9,405.733-10.695,489.94l84.207,84.207,83.261-84.207C240.035,405.733,125.551,326.257,73.513,413.3Z" transform="translate(1405.162 2366.07) rotate(180)" fill="red" stroke="red" stroke-width="1"/>
+  <text id="_2" data-name="2" transform="translate(120 198)" fill="red" font-size="175" font-family="TrebuchetMS, Trebuchet MS"><tspan x="0" y="0">2</tspan></text>
+  <text id="_2-2" data-name="2" transform="matrix(-1, 0.017, -0.017, -1, 1382.045, 2049.112)" fill="red" font-size="175" font-family="TrebuchetMS, Trebuchet MS"><tspan x="0" y="0">2</tspan></text>
+  <path id="Path_39" data-name="Path 39" d="M68.6,411.606c-47.525-86.449-161.131-7.242-80.565,73.324L68.6,565.495l79.66-80.566C227.922,404.364,118.389,328.324,68.6,411.606Z" transform="translate(103.575 -137.556)" fill="red" stroke="red" stroke-width="1"/>
+  <path id="Path_206" data-name="Path 206" d="M145.285,438.1C64.218,290.633-129.571,425.745,7.857,563.172L145.285,700.6,281.169,563.172C417.053,425.745,230.213,296.037,145.285,438.1Z" transform="translate(913.162 2266.07) rotate(180)" fill="red" stroke="red" stroke-width="1"/>
+  <path id="Path_207" data-name="Path 207" d="M142.772,437.229C62.8,291.764-128.357,425.044,7.208,560.608L142.772,696.172,276.813,560.608C410.854,425.044,226.547,297.1,142.772,437.229Z" transform="translate(615.575 -75.233)" fill="red" stroke="red" stroke-width="1"/>
+<text x="1517" y="2235" font-size="200">The 2 of Hearts</text></g></svg>

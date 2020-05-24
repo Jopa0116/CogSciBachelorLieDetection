@@ -1,0 +1,14 @@
+<svg id="Component_35_1" data-name="Component 35 – 1" xmlns="http://www.w3.org/2000/svg" width="1517" height="2235" viewBox="0 0 303 427"> <g transform="scale(0.06 0.06)">
+  <g id="Rectangle_14" data-name="Rectangle 14" fill="#fff" stroke="#000" stroke-width="5">
+    <rect width="1517" height="2235" rx="81" stroke="none"/>
+    <rect x="2.5" y="2.5" width="1512" height="2230" rx="78.5" fill="none"/>
+  </g>
+  <path id="Path_58" data-name="Path 58" d="M73.513,413.3C23.84,322.945-94.9,405.733-10.695,489.94l84.207,84.207,83.261-84.207C240.035,405.733,125.551,326.257,73.513,413.3Z" transform="translate(1405.162 2366.07) rotate(180)" fill="red" stroke="red" stroke-width="1"/>
+  <text id="A" transform="translate(120 198)" fill="red" font-size="175" font-family="TrebuchetMS, Trebuchet MS"><tspan x="0" y="0">4</tspan></text>
+  <text id="A-2" data-name="A" transform="matrix(-1, 0.017, -0.017, -1, 1382.045, 2049.11)" fill="red" font-size="175" font-family="TrebuchetMS, Trebuchet MS"><tspan x="0" y="0">4</tspan></text>
+  <path id="Path_69" data-name="Path 69" d="M68.6,411.606c-47.525-86.449-161.131-7.242-80.565,73.324L68.6,565.495l79.66-80.566C227.922,404.364,118.389,328.324,68.6,411.606Z" transform="translate(103.575 -137.556)" fill="red" stroke="red" stroke-width="1"/>
+  <path id="Path_404" data-name="Path 404" d="M145.285,438.1C64.218,290.633-129.571,425.745,7.857,563.172L145.285,700.6,281.169,563.172C417.053,425.745,230.213,296.037,145.285,438.1Z" transform="translate(609.162 2166.07) rotate(180)" fill="red" stroke="red" stroke-width="1"/>
+  <path id="Path_405" data-name="Path 405" d="M145.285,438.1C64.218,290.633-129.571,425.745,7.857,563.172L145.285,700.6,281.169,563.172C417.053,425.745,230.213,296.037,145.285,438.1Z" transform="translate(325 48.399)" fill="red" stroke="red" stroke-width="1"/>
+  <path id="Path_406" data-name="Path 406" d="M145.285,438.1C64.218,290.633-129.571,425.745,7.857,563.172L145.285,700.6,281.169,563.172C417.053,425.745,230.213,296.037,145.285,438.1Z" transform="translate(1139.162 2166.07) rotate(180)" fill="red" stroke="red" stroke-width="1"/>
+  <path id="Path_407" data-name="Path 407" d="M145.285,438.1C64.218,290.633-129.571,425.745,7.857,563.172L145.285,700.6,281.169,563.172C417.053,425.745,230.213,296.037,145.285,438.1Z" transform="translate(855 48.399)" fill="red" stroke="red" stroke-width="1"/>
+<text x="1517" y="2235" font-size="200">The 4 of Hearts</text></g></svg>

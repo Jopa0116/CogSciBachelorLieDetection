@@ -1,0 +1,12 @@
+<svg id="Component_20_1" data-name="Component 20 – 1" xmlns="http://www.w3.org/2000/svg" width="1517" height="2235" viewBox="0 0 303 427"> <g transform="scale(0.06 0.06)">
+  <g id="Rectangle_5" data-name="Rectangle 5" fill="#fff" stroke="#000" stroke-width="5">
+    <rect width="1517" height="2235" rx="81" stroke="none"/>
+    <rect x="2.5" y="2.5" width="1512" height="2230" rx="78.5" fill="none"/>
+  </g>
+  <path id="Path_25" data-name="Path 25" d="M96,409.658C133.618,368.038,176.839,288,176.839,288s40.019,80.038,74.435,121.658c-35.217,49.624-74.435,134.464-74.435,134.464S127.215,452.879,96,409.658Z" transform="translate(-30 -47.122)" fill="red" stroke="red" stroke-width="1"/>
+  <path id="Path_26" data-name="Path 26" d="M96,412.286C134.431,369.767,178.585,288,178.585,288s40.884,81.767,76.044,124.286c-35.978,50.7-76.044,137.369-76.044,137.369S127.889,456.441,96,412.286Z" transform="translate(1555.297 2258.578) rotate(180)" fill="red" stroke="red" stroke-width="1"/>
+  <text id="_2" data-name="2" transform="translate(92 198)" fill="red" font-size="175" font-family="TrebuchetMS, Trebuchet MS"><tspan x="0" y="0">2</tspan></text>
+  <text id="_2-2" data-name="2" transform="matrix(-1, 0.017, -0.017, -1, 1429.901, 2028.112)" fill="red" font-size="175" font-family="TrebuchetMS, Trebuchet MS"><tspan x="0" y="0">2</tspan></text>
+  <path id="Path_35" data-name="Path 35" d="M96,508.4C164.149,433,242.448,288,242.448,288s72.5,145,134.848,220.4c-63.8,89.9-134.848,243.6-134.848,243.6S152.549,586.7,96,508.4Z" transform="translate(534 33.515)" fill="red" stroke="red" stroke-width="1"/>
+  <path id="Path_205" data-name="Path 205" d="M96,497.186C160.682,425.622,235,288,235,288s68.811,137.622,127.989,209.185C302.433,582.511,235,728.391,235,728.391S149.673,571.5,96,497.186Z" transform="translate(1007.297 2139.578) rotate(180)" fill="red" stroke="red" stroke-width="1"/>
+<text x="1517" y="2235" font-size="200">The 2 of Diomonds</text></g></svg>

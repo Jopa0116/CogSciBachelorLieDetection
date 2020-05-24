@@ -1,0 +1,10 @@
+<svg id="Component_2_1" data-name="Component 2 – 1" xmlns="http://www.w3.org/2000/svg" width="264" height="202" viewBox="0 0 264 202">
+  <g transform="scale(0.8 0.8)">
+  <g id="Rectangle_1" data-name="Rectangle 1" fill="#fff" stroke="#707070" stroke-width="1">
+    <rect width="264" height="202" rx="32" stroke="none"/>
+    <rect x="0.5" y="0.5" width="263" height="201" rx="31.5" fill="none"/>
+  </g>
+  <text id="Yes" transform="translate(26 82)" font-size="75" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="52.435" y="67">Yes</tspan></text>
+  <text id="n" transform="translate(26 21)" font-size="35" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="24.75" y="31">n</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,141 @@
+<svg id="Component_1_1" data-name="Component 1 – 1" xmlns="http://www.w3.org/2000/svg" width="544" height="539" viewBox="0 0 544 539">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <line id="Line_1" data-name="Line 1" class="cls-1" x1="100" transform="translate(200.5 180.5)"/>
+  <line id="Line_3" data-name="Line 3" class="cls-1" x1="103" y2="129" transform="translate(120.5 178.5)"/>
+  <line id="Line_4" data-name="Line 4" class="cls-1" y2="129" transform="translate(223.5 178.5)"/>
+  <line id="Line_5" data-name="Line 5" class="cls-1" y2="129" transform="translate(318.5 178.5)"/>
+  <line id="Line_6" data-name="Line 6" class="cls-1" x2="92" y2="129" transform="translate(318.5 178.5)"/>
+  <g id="Ellipse_2" data-name="Ellipse 2" class="cls-2" transform="translate(201 154)">
+    <circle class="cls-3" cx="24.5" cy="24.5" r="24.5"/>
+    <circle class="cls-4" cx="24.5" cy="24.5" r="24"/>
+    <circle id="Red_Q1_1" class="cls-9" cx="24.5" cy="24.5" r="19" fill="#cf3d3d"/>
+  </g>
+  <g id="Ellipse_3" data-name="Ellipse 3" class="cls-2" transform="translate(289 154)">
+    <circle class="cls-3" cx="24.5" cy="24.5" r="24.5"/>
+    <circle class="cls-4" cx="24.5" cy="24.5" r="24"/>
+    <circle id="Red_Q1_2" class="cls-9" cx="24.5" cy="24.5" r="19" fill="#cf3d3d"/>
+  </g>
+  <line id="Line_9" data-name="Line 9" class="cls-1" x1="106" y2="126" transform="translate(14.5 332.5)"/>
+  <line id="Line_10" data-name="Line 10" class="cls-1" x1="72" y2="126" transform="translate(48.5 332.5)"/>
+  <line id="Line_13" data-name="Line 13" class="cls-1" x1="43" y2="126" transform="translate(180.5 332.5)"/>
+  <line id="Line_14" data-name="Line 14" class="cls-1" x1="6" y2="126" transform="translate(217.5 332.5)"/>
+  <line id="Line_17" data-name="Line 17" class="cls-1" x2="106" y2="126" transform="translate(423.5 331.5)"/>
+  <line id="Line_18" data-name="Line 18" class="cls-1" x2="72" y2="126" transform="translate(423.5 331.5)"/>
+  <line id="Line_21" data-name="Line 21" class="cls-1" x2="43" y2="126" transform="translate(320.5 331.5)"/>
+  <line id="Line_22" data-name="Line 22" class="cls-1" x2="6" y2="126" transform="translate(320.5 331.5)"/>
+  <g id="Ellipse_4" data-name="Ellipse 4" class="cls-2" transform="translate(96 308)">
+    <circle class="cls-3" cx="24.5" cy="24.5" r="24.5"/>
+    <circle class="cls-4" cx="24.5" cy="24.5" r="24"/>
+    <circle id="Red_Q3_1" class="cls-9" cx="24.5" cy="24.5" r="19" fill="#cf3d3d"/>
+  </g>
+  <g id="Ellipse_5" data-name="Ellipse 5" class="cls-2" transform="translate(199 308)">
+    <circle class="cls-3" cx="24.5" cy="24.5" r="24.5"/>
+    <circle class="cls-4" cx="24.5" cy="24.5" r="24"/>
+    <circle id="Red_Q3_2" class="cls-9" cx="24.5" cy="24.5" r="19" fill="#cf3d3d"/>
+  </g>
+  <g id="Ellipse_6" data-name="Ellipse 6" class="cls-2" transform="translate(294 308)">
+    <circle class="cls-3" cx="24.5" cy="24.5" r="24.5"/>
+    <circle class="cls-4" cx="24.5" cy="24.5" r="24"/>
+    <circle id="Red_Q3_3" class="cls-9" cx="24.5" cy="24.5" r="19" fill="#cf3d3d"/>
+
+  </g>
+  <g id="Ellipse_7" data-name="Ellipse 7" class="cls-2" transform="translate(386 308)">
+    <circle class="cls-3" cx="24.5" cy="24.5" r="24.5"/>
+    <circle class="cls-4" cx="24.5" cy="24.5" r="24"/>
+    <circle id="Red_Q3_4" class="cls-9" cx="24.5" cy="24.5" r="19" fill="#cf3d3d"/>
+
+  </g>
+  <line id="Line_23" data-name="Line 23" class="cls-1" x1="7" y2="41" transform="translate(7.5 472.5)"/>
+  <line id="Line_24" data-name="Line 24" class="cls-1" x1="7" y2="41" transform="translate(7.5 472.5)"/>
+  <line id="Line_25" data-name="Line 25" class="cls-1" x2="7" y2="41" transform="translate(14.5 472.5)"/>
+  <line id="Line_26" data-name="Line 26" class="cls-1" x1="7" y2="41" transform="translate(44.5 472.5)"/>
+  <line id="Line_27" data-name="Line 27" class="cls-1" x2="7" y2="41" transform="translate(51.5 472.5)"/>
+  <line id="Line_28" data-name="Line 28" class="cls-1" x1="7" y2="41" transform="translate(172.5 472.5)"/>
+  <line id="Line_29" data-name="Line 29" class="cls-1" x2="7" y2="41" transform="translate(179.5 472.5)"/>
+  <line id="Line_30" data-name="Line 30" class="cls-1" x1="7" y2="41" transform="translate(211.5 472.5)"/>
+  <line id="Line_31" data-name="Line 31" class="cls-1" x2="7" y2="41" transform="translate(218.5 472.5)"/>
+  <line id="Line_32" data-name="Line 32" class="cls-1" x1="7" y2="41" transform="translate(7.5 472.5)"/>
+  <line id="Line_33" data-name="Line 33" class="cls-1" x1="7" y2="41" transform="translate(7.5 472.5)"/>
+  <line id="Line_34" data-name="Line 34" class="cls-1" x2="7" y2="41" transform="translate(14.5 472.5)"/>
+  <line id="Line_35" data-name="Line 35" class="cls-1" x1="7" y2="41" transform="translate(44.5 472.5)"/>
+  <line id="Line_36" data-name="Line 36" class="cls-1" x2="7" y2="41" transform="translate(51.5 472.5)"/>
+  <line id="Line_37" data-name="Line 37" class="cls-1" x1="7" y2="41" transform="translate(172.5 472.5)"/>
+  <line id="Line_38" data-name="Line 38" class="cls-1" x2="7" y2="41" transform="translate(179.5 472.5)"/>
+  <line id="Line_39" data-name="Line 39" class="cls-1" x1="7" y2="41" transform="translate(211.5 472.5)"/>
+  <line id="Line_40" data-name="Line 40" class="cls-1" x2="7" y2="41" transform="translate(218.5 472.5)"/>
+  <line id="Line_41" data-name="Line 41" class="cls-1" x1="7" y2="41" transform="translate(320.5 472.5)"/>
+  <line id="Line_42" data-name="Line 42" class="cls-1" x1="7" y2="41" transform="translate(320.5 472.5)"/>
+  <line id="Line_43" data-name="Line 43" class="cls-1" x2="7" y2="41" transform="translate(327.5 472.5)"/>
+  <line id="Line_44" data-name="Line 44" class="cls-1" x1="7" y2="41" transform="translate(357.5 472.5)"/>
+  <line id="Line_45" data-name="Line 45" class="cls-1" x2="7" y2="41" transform="translate(364.5 472.5)"/>
+  <line id="Line_46" data-name="Line 46" class="cls-1" x1="7" y2="41" transform="translate(485.5 472.5)"/>
+  <line id="Line_47" data-name="Line 47" class="cls-1" x2="7" y2="41" transform="translate(492.5 472.5)"/>
+  <line id="Line_48" data-name="Line 48" class="cls-1" x1="7" y2="41" transform="translate(524.5 472.5)"/>
+  <line id="Line_49" data-name="Line 49" class="cls-1" x2="7" y2="41" transform="translate(531.5 472.5)"/>
+  <g id="Ellipse_10" data-name="Ellipse 10" class="cls-2" transform="translate(0 458)">
+    <circle class="cls-3" cx="14" cy="14" r="14"/>
+    <circle class="cls-4" cx="14" cy="14" r="13.5"/>
+    <circle id="Red_Q2_1a" class="cls-9" cx="14" cy="14" r="9" fill="#cf3d3d"/>
+
+  </g>
+  <g id="Ellipse_11" data-name="Ellipse 11" class="cls-2" transform="translate(37 458)">
+    <circle class="cls-3" cx="14" cy="14" r="14"/>
+    <circle class="cls-4" cx="14" cy="14" r="13.5"/>
+    <circle id="Red_Q2_2a" class="cls-9" cx="14" cy="14" r="9" fill="#cf3d3d"/>
+
+  </g>
+  <g id="Ellipse_14" data-name="Ellipse 14" class="cls-2" transform="translate(166 458)">
+    <circle class="cls-3" cx="14" cy="14" r="14"/>
+    <circle class="cls-4" cx="14" cy="14" r="13.5"/>
+    <circle id="Red_Q2_1b" class="cls-9" cx="14" cy="14" r="9" fill="#cf3d3d"/>
+
+  </g>
+  <g id="Ellipse_15" data-name="Ellipse 15" class="cls-2" transform="translate(204 458)">
+    <circle class="cls-3" cx="14" cy="14" r="14"/>
+    <circle class="cls-4" cx="14" cy="14" r="13.5"/>
+    <circle id="Red_Q2_2b" class="cls-9" cx="14" cy="14" r="9" fill="#cf3d3d"/>
+  </g>
+  <g id="Ellipse_18" data-name="Ellipse 18" class="cls-2" transform="translate(516 457)">
+    <circle class="cls-3" cx="14" cy="14" r="14"/>
+    <circle class="cls-4" cx="14" cy="14" r="13.5"/>
+    <circle id="Red_Q2_1c" class="cls-9" cx="14" cy="14" r="9" fill="#cf3d3d"/>
+  </g>
+  <g id="Ellipse_19" data-name="Ellipse 19" class="cls-2" transform="translate(479 457)">
+    <circle class="cls-3" cx="14" cy="14" r="14"/>
+    <circle class="cls-4" cx="14" cy="14" r="13.5"/>
+    <circle id="Red_Q2_2c" class="cls-9" cx="14" cy="14" r="9" fill="#cf3d3d"/>
+  </g>
+  <g id="Ellipse_22" data-name="Ellipse 22" class="cls-2" transform="translate(350 457)">
+    <circle class="cls-3" cx="14" cy="14" r="14"/>
+    <circle class="cls-4" cx="14" cy="14" r="13.5"/>
+    <circle id="Red_Q2_1d" class="cls-9" cx="14" cy="14" r="9" fill="#cf3d3d"/>
+  </g>
+  <g id="Ellipse_23" data-name="Ellipse 23" class="cls-2" transform="translate(312 457)">
+    <circle class="cls-3" cx="14" cy="14" r="14"/>
+    <circle class="cls-4" cx="14" cy="14" r="13.5"/>
+    <circle id="Red_Q2_2d" class="cls-9" cx="14" cy="14" r="9" fill="#cf3d3d"/>
+  </g>
+  <g id="Rectangle_3" data-name="Rectangle 3" class="cls-2" transform="translate(0 507)">
+    <rect class="cls-3" width="544" height="25"/>
+    <rect class="cls-4" x="0.5" y="0.5" width="543" height="26"/>
+    <rect id="Red_rect" class="cls-9" x="46" y="8" width="450" height="10" fill="#cf3d3d"/>
+  </g>
+<text x="1517" y="2235" font-size="200">Seven of Clover</text></g></svg>

@@ -1,0 +1,12 @@
+<svg id="Component_46_1" data-name="Component 46 – 1" xmlns="http://www.w3.org/2000/svg" width="1517" height="2235" viewBox="0 0 303 427"> <g transform="scale(0.06 0.06)">
+  <g id="Rectangle_7" data-name="Rectangle 7" fill="#fff" stroke="#000" stroke-width="5">
+    <rect width="1517" height="2235" rx="81" stroke="none"/>
+    <rect x="2.5" y="2.5" width="1512" height="2230" rx="78.5" fill="none"/>
+  </g>
+  <path id="Union_5" data-name="Union 5" d="M91.709,222.105s9.118-18.7,14.215-59.646c-52.078,75.414-156.359-.3-77.3-80.409L109.6,0l81.9,82.05c80.631,80.783-30.071,160.219-79.615,78.626,5.263,42.525,16.492,61.429,16.492,61.429Z" transform="translate(86.952 240.895)" stroke="#000" stroke-width="1"/>
+  <path id="Union_6" data-name="Union 6" d="M97.544,236.105s9.7-19.882,15.12-63.406c-55.391,80.168-166.307-.316-82.213-85.477L116.578,0l87.106,87.222C289.445,173.1,171.7,257.54,119,170.8c5.6,45.206,17.541,65.3,17.541,65.3Z" transform="translate(1459 2016) rotate(180)" stroke="#000" stroke-width="1"/>
+  <text id="_2" data-name="2" transform="translate(145 198)" font-size="175" font-family="TrebuchetMS, Trebuchet MS"><tspan x="0" y="0">2</tspan></text>
+  <text id="_2-2" data-name="2" transform="matrix(-1, 0.017, -0.017, -1, 1392.045, 2055.112)" font-size="175" font-family="TrebuchetMS, Trebuchet MS"><tspan x="0" y="0">2</tspan></text>
+  <path id="Union_41" data-name="Union 41" d="M133.386,322.105s13.261-27.124,20.675-86.5C78.317,344.973-73.355,235.174,41.639,118.992L159.414,0,278.527,118.992C395.8,236.147,234.79,351.347,162.731,233.019c7.655,61.672,23.987,89.086,23.987,89.086Z" transform="translate(597.952 298.895)" stroke="#000" stroke-width="1"/>
+  <path id="Union_42" data-name="Union 42" d="M144.222,350.105s14.339-29.482,22.355-94.021c-81.9,118.876-245.891-.468-121.555-126.749L172.364,0l128.79,129.336c126.8,127.339-47.291,252.553-125.2,123.939,8.277,67.033,25.935,96.83,25.935,96.83Z" transform="translate(918 1955) rotate(180)" stroke="#000" stroke-width="1"/>
+<text x="1517" y="2235" font-size="200">The 2 of Spades</text></g></svg>
