@@ -22,6 +22,7 @@ Training_Result = []
 Training_HS = []
 Training_belifes = []
 Training_prediction = []
+Training_qustions = []
 
 // NewStrtgWheights = []
 
@@ -32,6 +33,7 @@ Test_qstns = []
 Test_Result = []
 Test_HS = []
 Test_prediction = []
+testRTs = []
 
 
 function getFormData(){
@@ -88,6 +90,7 @@ function gatherData(){
     Save.Training_Result = Training_Result
     Save.Training_HS = Training_HS
     Save.Training_prediction = Training_prediction
+    Save.Training_qustions = Training_qustions
 
     Save.Test_cardDraw = Test_cardDraw
     Save.Test_answers = Test_answers
@@ -100,7 +103,7 @@ function gatherData(){
     Save.Strategy2_reward = Strategy2_reward
     Save.Strategy3_reward = Strategy3_reward
     Save.Strategy4_reward = Strategy4_reward   
-    // Save.
+    Save.testRTs = testRTs
 
     return Save
 };

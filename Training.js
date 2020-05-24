@@ -130,6 +130,7 @@ function mainTrain(){
         reactionTime = 0;
         QstnKey = strtg();
         CurrQstn = QstnKey;
+        Training_qustions.push(CurrQstn)
         // // l('mainTrain2')
         // // l(QstnKey)
         Question = document.getElementById(QstnKey).innerHTML

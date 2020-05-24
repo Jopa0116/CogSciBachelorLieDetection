@@ -12,7 +12,7 @@ function keypressTest(response){
             var reactionTime = Date.now() - startTime;
             var qst = "No";
         };
-
+        testRTs.push(reactionTime)
         var ReactionResult = calcCertanty(reactionTime);
         l('It got here7')
         var AgentReactionPrompt = '';
