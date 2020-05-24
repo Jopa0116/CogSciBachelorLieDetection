@@ -1,6 +1,6 @@
 function calcMean(SetofItems){
     var sum = 0.000;
-    for(a = 1; a <= (SetofItems.length-1); a++){sum += SetofItems[a]};
+    for(a = 0; a <= (SetofItems.length-1); a++){sum += SetofItems[a]};
     var mean = sum/SetofItems.length;
     return mean;
 };
@@ -8,7 +8,7 @@ function calcMean(SetofItems){
 function calcSTD(SetofItems, mean){
     var sum = 0.00
     var bit = 0.00
-    for(a = 1; a <= (SetofItems.length-1); a++) {
+    for(a = 0; a <= (SetofItems.length-1); a++) {
          bit = Math.pow((SetofItems[a]-mean), 2);
          sum += bit;
     };

@@ -1,16 +1,17 @@
 function addquestion(Question){
+    var nde = document.createElement('h2')
+    nde.innerHTML = Question
     var place = document.getElementById("Questions_here");
-    var q = document.createTextNode(Question);
-    place.appendChild(q);
+    place.appendChild(nde);
 };
 
 function addRedDot(){
-    // l((CurrQstn[0] + CurrQstn[1]) == 'Q2')
+    // // l((CurrQstn[0] + CurrQstn[1]) == 'Q2')
     var Q_unknown = CurrQstn[0] + CurrQstn[1];
     if ((Q_unknown == 'Q1') || (Q_unknown == 'Q2') || (Q_unknown == 'Q3')) {
         var b = 'Red_' + CurrQstn;
-        // l('----whoooo---------')
-        // l('Red_' + CurrQstn)
+        // // l('----whoooo---------')
+        // // l('Red_' + CurrQstn)
     } else {var b = 'Red_rect'};
     $('#' + b).attr('visibility', 'visible');
 };
@@ -28,8 +29,8 @@ function changeSize(element, Width, Hight){
 };
 
 function hideallRedDots(){
-    // l('hide--------')
-    // l(document.getElementsByClassName('cls-9'))
+    // // l('hide--------')
+    // // l(document.getElementsByClassName('cls-9'))
     $('.cls-9').attr('visibility', 'hidden');
 };
 

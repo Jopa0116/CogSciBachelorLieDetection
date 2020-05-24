@@ -1,6 +1,8 @@
 var l = console.log //For faster writing of the command
 var testData = {'Participant': ['1'], 'Read_Times': [700, 800, 600], 'Truth_Times': [1000, 1000, 1000], 'Lie_Times': [2000, 2000, 2000]};
 
+const whgtTEST = { 1:0.25, 2:0.25, 3:0.25, 4:0.25 }
+
 function doGetDEBUG(e){
     var yo = new URLSearchParams(e).toString()
     l(yo)
@@ -210,7 +212,6 @@ function Strategy1OLD(){
         l('Strategy1_4')
         var nextState = answer;
     };
-    CurrQstn = nextState
     l('Strategy1_5')
     l(CurrQstn)
     l('------------------------------------------------------------------------------')
