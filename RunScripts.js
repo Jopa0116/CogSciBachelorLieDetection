@@ -3,4 +3,4 @@
 
 hideElement('Exjobb_Web'); //Graphics.js
 hideallRedDots()
-MAIN() //GeneralScript.js
+setTimeout(()=>{ MAIN() }, 5000) //GeneralScript.js
