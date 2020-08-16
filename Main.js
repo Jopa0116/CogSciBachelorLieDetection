@@ -14,14 +14,12 @@ function MAIN(press){
         var flip = coinflip();
         if(flip === 1){
             var scenario = document.getElementById('shwn_tst');
-            scenario.innerHTML = 'You will begin with the test scenario';
-            scenario.innerHTML = '<p>This means the no-prompt scenario /n
-In the no-prompt scenario you are free to too choose for yourself if you want to lie or not. Your goal is to deceive the computer and get as high of an high score as possible. As it is explained above. An important thing to note is the order in which you complete your task. You need to /n 1) Read the question;  /n 2) Decide if you want to answer truthfully or not; /n 3) Press the correct button to give your answer. /n And you need to do this as fast as possible. There will in total be 52 questions asked.</p>'
+            scenario.innerHTML = 'You will begin with the no-prompt scenario. Please make your own choices to try to decieve the computer.';
             beganwith = 'Test'; 
             // l('beganwidth--Test')
         }else if (flip === 0) { 
             var scenario = document.getElementById('shwn_trng');
-            scenario.innerHTML = 'You will begin with the training scenario';
+            scenario.innerHTML = 'You will begin with the prompt scenario. Please try to follow the truth and false prompts placed before the sentence.';
             beganwith = 'Training'
             // l('beganwidth--Training')
         };
